@@ -1,0 +1,46 @@
+body{
+	font-family: Georgia, Arial, san-serif;
+	font-size: 1.02em;
+	word-spacing: .08em;
+	letter-spacing: .05em;
+	color: #795548fc;
+	
+	
+}
+h1,
+h2{
+	text-transform: capitalize;
+	font-family: Times New Roman, Tahoma, san-serif;
+	font-style: italic;
+	color: #751f00;
+	text-shadow: -3px -1px 5px #751f00;
+	background-color: #5a47475c;
+	border-radius: 10px / 15px;
+	padding: 5px;
+
+}
+
+h2 ~ a em::after{
+		content: "(" attr(href) ")"; 
+}
+
+aside{
+	padding: .75em;
+	box-shadow: inset -1px 2px 3px #795548fc;
+	border: 1px;
+}
+	
+em{
+	text-transform: capitalize;
+	color: #1d00ffde;
+	font-weight: bold;
+}
+
+hr{
+	box-shadow: 1px -1px 3px #307;
+}
+
+a {
+	color: #001dffb5;
+	text-shadow: 1px -1px 3px #795548fc; 
+}
